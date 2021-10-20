@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/fundinho"
+    >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/EdtUser"
+        android:paddingRight="8dp"
+        android:paddingBottom="4dp"
+        android:layout_width="299dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/fundo"
+        android:drawableRight="@drawable/user"
+        android:hint="User name"
+        android:paddingLeft="10sp"
+        android:inputType="text"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/EdtPassword"
+        android:paddingRight="8dp"
+        android:layout_width="299dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fundo"
+        android:drawableRight="@drawable/chave"
+        android:hint="Password"
+        android:paddingLeft="10sp"
+        android:inputType="textPassword"
+        android:textColorHint="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="22sp"
+            android:layout_width="17dp"
+            android:layout_height="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="7dp"
+            android:text="Remember password" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rembember password"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnsignin2"
+            android:layout_marginLeft="60dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Sign in"
+            android:background="@drawable/bordinha"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="12dp"
+            android:text="Forget password?"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#0003DAC5" android:layout_marginLeft="105sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="130dp"
+            android:text="Don't you have account?"
+            android:textColor="#FFF" />
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="360dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:onClick="signUp"
+                android:id="@+id/BtnCadastro"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="-20dp"
+            android:text="Sign up"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

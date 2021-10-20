@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundinho"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    // SAMUEL SILVA COSTA
+    // DAVI DA SILVA BIAGGIOLI
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background=""
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="Welcome Back"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Lorem ipsum dolor nim ad minim veniamsit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna. "
+            android:textColor="#DDECECEC"
+            android:textSize="12dp"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="91dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/logo"
+            android:scrollbarSize="20dp"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Inside Company"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:gravity="center_horizontal"
+            android:text="Here we do the best!"
+            android:textAlignment="center"
+            android:textColor="#A1F4F4F4"
+            android:textSize="22dp"
+
+            />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:onClick="signIn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bordinha"
+            android:text="@string/Singin"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnSingUp"
+            android:onClick="signUp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bordinha"
+            android:text="@string/SingUp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="Sing in with Social Media"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textAppearancScrowViewe="@style/TextAppearance.AppCompat.Body2"
+
+            />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/Btnfacebook"
+                android:onClick="facebook"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/facebook"
+                />
+
+            <Button
+                android:id="@+id/Btntwitter"
+                android:onClick="twitter"
+                android:background="@drawable/twitter"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                />
+            <Button
+                android:id="@+id/Btnlinkdedin"
+                android:onClick="linkdedin"
+                android:background="@drawable/linkedin"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

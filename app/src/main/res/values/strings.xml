@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App_29.09</string>
+    <string name="insira_o_usuario">Insira o usuário</string>
+    <string name="insira_a_senha">Insira a senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="sair">Sair</string>
+    <string name="Singin">Sing in</string>
+    <string name="SingUp">Sing up</string>
+    <string name="allow_term_conditions"><![CDATA[Allow Term & Conditions]]></string>
+    <string name="allow_term_conditions"><![CDATA[Allow Term & Conditions]]></string>
+</resources>
